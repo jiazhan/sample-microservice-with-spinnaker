@@ -3,7 +3,7 @@ FROM golang:alpine as builder
 RUN mkdir /build 
 ADD . /build/
 WORKDIR /build 
-RUN go build -o main .
+RUN  go mod init  tidy && go build -o main .
 FROM alpine
 ENV PORT 8080
 EXPOSE 8080
