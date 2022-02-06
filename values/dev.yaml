@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: 107995894928.dkr.ecr.us-west-2.amazonaws.com/sample-microservice
+  repository: 940671628147.dkr.ecr.us-west-1.amazonaws.com/kvgarnet/spin-ecr-sample-microservice
   tag: latest
   pullPolicy: Always
 
